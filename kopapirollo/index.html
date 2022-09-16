@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <title>Kő-papír-olló</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <main>
+            <button type="button" class="ko" id="btn" onclick="ko()">Kő</button>
+            <button type="button" class="papir" id="btn" onclick="papir()">Papír</button>
+            <button type="button" class="ollo" id="btn" onclick="ollo()">Olló</button>
+            <button type="button" class="try" onclick="megH()">Sok szerencsét!</button>
+            <div class="vl"></div>
+            <p class="jatekos_txt">Játékos: </p>
+            <p class="gep_txt">Gép: </p>
+            <table>
+                <tr>
+                    <th class="wt">
+                        Nyert:
+                    </th>
+                    <th id="win"></th>
+                    <th class="lt">
+                        Vesztett: 
+                    </th>
+                    <th id="lose"></th>
+                    <th class="dt">
+                        Döntetlen: 
+                    </th>
+                    <th id="draw"></th>
+                </tr>
+            </table>
+            <div id="kepPlayer" ></div>
+            <div id="kepBot"></div>
+            <div id="kepTheRock"></div>
+        </main>
+    </div>
+    <script src="kopapirollo.js">
+    </script>
+</body>
+</html>
