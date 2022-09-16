@@ -1,1 +1,2 @@
-# Webfejlesztes
+# Webfejlesztés
+- Kő papír olló játék
